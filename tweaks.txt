@@ -1,0 +1,3 @@
+Java teak (Clion)
+#To fix not rendering the main window
+export _JAVA_AWT_WM_NONREPARENTING=1
