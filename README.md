@@ -4,6 +4,7 @@ Simple configuration for Sway Desktop with i3Blocks Status bar and termite as te
 ## Prerequisite
 * sway
 * i3Blocks
+* j4-dmenu-desktop
 * termite (preferable without window decorations)
 * playerctl (for media control)
 * brightnessctl (changing screen brightness)
