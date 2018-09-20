@@ -2,14 +2,6 @@
 
 echo $PWD
 
-echo "Installing font awesome on your system..."
-curl -O http://fontawesome.io/assets/font-awesome-4.7.0.zip
-unzip font-awesome-4.7.0.zip > /dev/null
-mkdir -p $HOME/.fonts
-cp font-awesome-4.7.0/fonts/fontawesome-webfont.ttf $HOME/.fonts
-rm -rf font-awesome-4.7.0/
-rm -f font-awesome-4.7.0.zip
-echo "Done..."
 echo "Seting up config files"
 
 echo "Sway config"

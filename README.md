@@ -15,9 +15,9 @@ Desktop            |  Consoles
 * brightnessctl (changing screen brightness)
 * amixer (volume control, alsa-utils)
 * pactl (should be included by pulse-audio)
+* font awesome 4 installed in your system (manually you can place the ttf into $HOME/.fonts/
 
 ## Hint
-* The setup will install fontawesome automatically for you under $HOME/.fonts, where sway searches
 * The setup file will create symbolic links, so if you want to modify your config do it directly in the repo.
 
 ## How to install
