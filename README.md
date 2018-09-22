@@ -23,4 +23,4 @@ Desktop            |  Consoles
 ## How to install
 * run setup.sh
 * Reload sway config (default $mod+Shift+c)
-* Change the input UD in the sway.config to your touchpad. Use "swaymsg -t get_outputs" to find the id
+* Change the input ID in the sway.config to your touchpad. Use "swaymsg -t get_outputs" to find the id
