@@ -11,11 +11,11 @@ Desktop            |  Consoles
 * i3Blocks
 * j4-dmenu-desktop
 * termite (preferable without window decorations)
+* acpi (battery indicator)
 * playerctl (for media control)
 * brightnessctl (changing screen brightness)
 * amixer (volume control, alsa-utils)
 * pactl (should be included by pulse-audio)
-* font awesome 4 installed in your system (manually you can place the ttf into $HOME/.fonts/
 
 ## Hint
 * The setup file will create symbolic links, so if you want to modify your config do it directly in the repo.
