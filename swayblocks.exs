@@ -3,7 +3,6 @@
     :name => "~/.config/swayblocks/scripts/date",
     :time => 1000,
     :default => %{
-      "color" => "#ff44ff",
       "separator_block_width" => 25
     }
   },
@@ -34,15 +33,6 @@
     :click => "~/.config/swayblocks/scripts/click/volctrl",
     :default => %{
       "separator_block_width" => 25
-    }
-  },
-  %{
-    :name => "~/.config/swayblocks/scripts/cmus",
-    :time => 1000,
-    :click => "~/.config/swayblocks/scripts/click/pause",
-    :default => %{
-      "separator_block_width" => 25,
-      "color" => "#44ffff"
     }
   }
 ]
