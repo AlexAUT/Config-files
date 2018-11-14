@@ -18,6 +18,7 @@ Desktop            |  Consoles
 * pactl (should be included by pulse-audio)
 * wget
 * unzip
+* ttf-liberation
 
 ## Hint
 * The setup file will create symbolic links, so if you want to modify your config do it directly in the repo.
