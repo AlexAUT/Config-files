@@ -8,7 +8,7 @@ Desktop            |  Consoles
 
 ## Prerequisite
 * sway
-* i3Blocks
+* [swayblocks](https://github.com/rei2hu/swayblocks)
 * j4-dmenu-desktop
 * termite (preferable without window decorations)
 * acpi (battery indicator)
