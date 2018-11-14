@@ -10,7 +10,7 @@ mkdir -p $HOME/.config/sway
 ln -s $PWD/sway.config $HOME/.config/sway/config
 
 echo "Desktop background"
-rm -r $HOME/.config/sway/background.jpg
+rm -f $HOME/.config/sway/background.jpg
 ln -s $PWD/background.jpg $HOME/.config/sway/background.jpg
 
 echo "Custom network bandwidth plugin"
