@@ -13,7 +13,7 @@ Desktop            |  Consoles
 * termite (preferable without window decorations)
 * acpi (battery indicator)
 * playerctl (for media control)
-* brightnessctl (changing screen brightness)
+* brightnessctl (changing screen brightness, current user has to be in input and screen group!)
 * amixer (volume control, alsa-utils)
 * pactl (should be included by pulse-audio)
 
