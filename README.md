@@ -8,14 +8,14 @@ Desktop            |  Consoles
 
 ## Prerequisite
 * sway
-* i3Blocks
+* [swayblocks](https://github.com/rei2hu/swayblocks)
 * j4-dmenu-desktop
 * termite (preferable without window decorations)
+* acpi (battery indicator)
 * playerctl (for media control)
-* brightnessctl (changing screen brightness)
+* brightnessctl (changing screen brightness, **current user has to be in input and screen group**)
 * amixer (volume control, alsa-utils)
 * pactl (should be included by pulse-audio)
-* font awesome 4 installed in your system (manually you can place the ttf into $HOME/.fonts/
 
 ## Hint
 * The setup file will create symbolic links, so if you want to modify your config do it directly in the repo.
@@ -23,4 +23,4 @@ Desktop            |  Consoles
 ## How to install
 * run setup.sh
 * Reload sway config (default $mod+Shift+c)
-* Change the input ID in the sway.config to your touchpad. Use "swaymsg -t get_outputs" to find the id
+* Change the input ID in the sway.config to your touchpad and keyboard. Use "swaymsg -t get_inputs" to find the id
