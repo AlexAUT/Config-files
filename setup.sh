@@ -32,3 +32,12 @@ rm -f $HOME/.config/termite/config
 ln -s $PWD/termite.conf $HOME/.config/termite/config
 echo "All Done, have fun!"
 
+#Install font awesome
+mkdir -p /tmp/fontawesome
+cd /tmp/fontawesome
+wget https://use.fontawesome.com/releases/v5.5.0/fontawesome-free-5.5.0-desktop.zip
+unzip fontawesome-free-5.5.0-desktop.zip
+cd fontawesome-free-5.5.0-desktop/otfs
+mkdir -p $HOME/.fonts
+cp * $HOME/.fonts/
+rm -rf /tmp/fontawesome
