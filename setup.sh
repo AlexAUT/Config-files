@@ -9,13 +9,16 @@ rm -f $HOME/.config/sway/config
 mkdir -p $HOME/.config/sway
 ln -s $PWD/sway.config $HOME/.config/sway/config
 
+echo "Swayblocks config"
+rm -f $HOME/.config/swayblocks/config.exs
+rm -rf $HOME/.config/swayblocks/scripts
+mkdir -p $HOME/.config/swayblocks
+ln -s $PWD/swayblocks.exs $HOME/.config/swayblocks/config.exs
+ln -s $PWD/swayblocksScripts $HOME/.config/swayblocks/scripts
+
 echo "Desktop background"
 rm -f $HOME/.config/sway/background.jpg
 ln -s $PWD/background.jpg $HOME/.config/sway/background.jpg
-
-echo "Custom network bandwidth plugin"
-rm -f $HOME/.config/sway/bandwidth
-ln -s $PWD/bandwidth $HOME/.config/sway/bandwidt
 
 # link i3blocks config file
 echo "i3Blocks config"
