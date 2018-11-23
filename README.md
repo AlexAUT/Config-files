@@ -3,7 +3,7 @@ Simple configuration for Sway Desktop with i3Blocks Status bar and termite as te
 
 Desktop            |  Consoles
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/AlexAUT/Config-files/blob/master/screenshots/2017-10-08-101626_swaygrab.png?raw=true)  |  ![alt text](https://github.com/AlexAUT/Config-files/blob/master/screenshots/2017-10-08-101728_swaygrab.png?raw=true)
+![Desktop screenshot](https://github.com/AlexAUT/Config-files/blob/master/screenshots/desktop.png?raw=true)  |  ![Console screenshot](https://github.com/AlexAUT/Config-files/blob/master/screenshots/console.png?raw=true)
 
 
 ## Prerequisite
