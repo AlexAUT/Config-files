@@ -3,7 +3,7 @@
 function rg_color {
 	CURRENT=$1 # non decimal (floored)
 	TOTAL=$2 # non decimal
-  if [ $TOTAL -e "0" ]; then
+  if (( $TOTAL == 0 )) || [ -z "$TOTAL" ]; then
     TOTAL=100
   fi
 	HALF=$(( TOTAL / 2 )) # non decimal (floored)
@@ -32,14 +32,14 @@ if [ "$(echo $INFO | awk '{print $3}')" != "remaining" ]; then
   BATTERY=100
 else
 	REMAIN=$(echo $INFO | awk '{print $2}')
-  if [ $BATTERY \> 60 ]; then
+  if (( $BATTERY > 60 )); then
     BATTERY_INDICATOR=
-  elif [ $BATTERY \> 30 ]; then
+  elif (( $BATTERY > 30 )); then
     BATTERY_INDICATOR=
-  elif [ $BATTERY \> 8 ]; then
+  elif (( $BATTERY > 8 )); then
     BATTERY_INDICATOR=
   else
-    BATTERY_INFO=
+    BATTERY_INDICATOR=
   fi
 fi
 
