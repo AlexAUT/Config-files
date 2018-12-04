@@ -6,9 +6,11 @@ if [[ $(amixer sget Master) == *"[off]"* ]]; then
   VOLUME="Muted"
 else
   VOLUME=$(awk -F "[][]" '/%/ { print $2 }' <(amixer sget Master) | head -n 1)
-  if [ $VOLUME \> 50 ]; then
+  VOLUMELEVEL=$(echo "$VOLUME" | sed 's/%//')
+
+  if (( $VOLUMELEVEL > 50 )); then
 	  VOL_ICON=""
-  elif [ $VOLUME \> 1 ]; then
+  elif (( $VOLUMELEVEL > 0 )); then
     VOL_ICON=""
   else
     VOL_ICON=""
