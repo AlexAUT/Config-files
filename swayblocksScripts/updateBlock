@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+echo "{\"action\":\"update\",\"name\":\"~/.config/swayblocks/scripts/$1\"}" > /tmp/.swayblocks.pipe
+echo "{\"action\":\"update\",\"name\":\"~/.config/swayblocks/scripts/$1\"}" 
+
+
