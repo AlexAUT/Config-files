@@ -1,4 +1,4 @@
-# Config-files
+# Simple sway desktop configuration
 Simple configuration for Sway Desktop with i3Blocks Status bar and termite as terminal
 
 Desktop            |  Consoles
