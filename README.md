@@ -46,4 +46,7 @@ When using sway there are three shortcuts:
 2) **Alt+Print** prints the current selected display
 3) **Shift+Print** select area to print
 
-Screenshots are stored inside the clipboard by default, press Ctrl additionally to store them into your XDG_Pictures folder.
+Screenshots are stored inside the clipboard by default, press $mod additionally to store them into your XDG_Pictures folder.
+
+### i3 screenshot
+just use gnome-screenshot :)
