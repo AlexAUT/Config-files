@@ -30,6 +30,11 @@ if [ "$(echo $INFO | awk '{print $3}')" != "remaining" ]; then
 	REMAIN="+"
   BATTERY_INDICATOR=
   BATTERY=$(echo $INFO | awk '{print $1}')
+  if [ -e $BATTERY ];
+  then
+    BATTERY=100
+    echo "test"
+  fi
 else
 	REMAIN=$(echo $INFO | awk '{print $2}')
   if (( $BATTERY > 60 )); then
