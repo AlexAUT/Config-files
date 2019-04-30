@@ -20,6 +20,7 @@ Desktop            |  Consoles
 * unzip
 * ttf-liberation
 * adobe-source-code-pro
+* swaylock-fancy
 ### sway specific
 * grim (screenshot)
 * slurp (select area for screenshot)
