@@ -62,6 +62,13 @@ mkdir -p $HOME/.config/termite/
 rm -f $HOME/.config/termite/config
 ln -s $PROJECT_DIR/termite.conf $HOME/.config/termite/config
 
+# Install Swaylock fancy
+echo "install swaylock-fancy"
+cd $PROJECT_DIR/swaylockfancy
+sudo make
+mkdir -p $HOME/.config/swaylock-fancy/
+ln -s $PROJECT_DIR/swaylockfancy/lock.png $HOME/.config/swaylock-fancy/lock.png
+
 #Install font awesome
 mkdir -p /tmp/fontawesome
 echo "Installing font awesome fonts"

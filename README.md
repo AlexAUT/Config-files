@@ -20,7 +20,8 @@ Desktop            |  Consoles
 * unzip
 * ttf-liberation
 * adobe-source-code-pro
-* swaylock-fancy
+* swaylock
+* python-pillow
 ### sway specific
 * grim (screenshot)
 * slurp (select area for screenshot)
